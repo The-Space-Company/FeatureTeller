@@ -18,9 +18,9 @@ export default function PortalProvider<P extends PortalProfile>(
     name: "The Space Portal",
     type: "oauth",
     authorization:
-      "https://portal.thepsace.company/oauth2/v1/authorize?scope=auth",
-    token: "https://portal.thepsace.company/oauth2/v1/token",
-    userinfo: "https://portal.thepsace.company/oauth2/v1/userinfo",
+      "https://portal.thespace.company/oauth2/v1/authorize?scope=auth",
+    token: "https://portal.thespace.company/oauth2/v1/token",
+    userinfo: "https://portal.thespace.company/oauth2/v1/userinfo",
     profile(profile) {
       return {
         id: profile.id,
@@ -39,7 +39,7 @@ export default function PortalProvider<P extends PortalProfile>(
 //     id: "portal",
 //     name: "The Space Portal",
 //     type: "oauth",
-//     wellKnown: "https://portal.thepsace.company/.well-known/openid-configuration",
+//     wellKnown: "https://portal.thespace.company/.well-known/openid-configuration",
 //     idToken: true,
 //     profile(profile) {
 //       return {
